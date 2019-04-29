@@ -28,6 +28,7 @@ body {
     grid-row: 1/5;
     background-color: rgb(157, 157, 207);
     text-align: center;
+    border-radius: 15px;
 }
 .one img {
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
@@ -46,9 +47,14 @@ p.description {
     font-size: 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    border-radius: 3px;
 }
 table {
     width: 100%;
+}
+td {
+    border: 1px solid rgb(112, 96, 129);
+    border-collapse: collapse;
 }
 th {
     color: rgb(102, 73, 141);
@@ -61,6 +67,7 @@ th {
     font-size: 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
 }
 span.about {
     color: rgb(102, 73, 141);
@@ -73,6 +80,7 @@ span.about {
     font-size: 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
 }
 span.work {
     color: rgb(102, 73, 141);
@@ -85,6 +93,7 @@ span.work {
     font-size: 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
 }
 span.social {
     color: rgb(102, 73, 141);
