@@ -65,9 +65,8 @@
     }
 }
 @mixin great {
-    font:
-    family $popfont;
-    size: 20px;
+    font-family: $popfont;
+    font-size: 20px;
 }
 $c: center;
 $bgmid: rgb(102, 73, 141);
