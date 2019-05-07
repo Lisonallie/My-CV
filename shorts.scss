@@ -1,0 +1,25 @@
+@mixin blockgrid: {
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .two {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .three {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .four {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .five {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    }
+$bgmid: rgb(102, 73, 141);
+$popfont: 'Poppins', sans-serif;
+$bglite: rgb(157, 157, 207);
